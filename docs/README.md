@@ -17,3 +17,6 @@ added @media to change page contents to flex-direction: column;
 arranged files and folders
 uploaded changes to GitHub
 created GitHub Pages link
+changed css to better structure @media layout
+changed html to be more dynamic
+changed css to be more dynamic

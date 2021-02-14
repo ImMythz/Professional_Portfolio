@@ -204,6 +204,7 @@ footer div ul li a {
   .contactMe {
     flex-direction: column;
     width: 100%;
+    text-align: center;
   }
   .projectTile {
     flex-direction: column;
@@ -218,10 +219,12 @@ footer div ul li a {
   .work {
     flex-direction: column;
     width: 100%;
+    text-align: center;
   }
   .aboutMe {
     flex-direction: column;
     width: 100%;
+    text-align: center;
   }
   .aboutMeBar {
     flex-direction: column;
@@ -234,14 +237,14 @@ footer div ul li a {
   }
   header {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
   }
   header h1 {
-    width: 100%;
+    text-align: center;
   }
 
   header nav {
-    width: 100%;
+    text-align: center;
   }
   /* header nav {
     flex-direction: column;
