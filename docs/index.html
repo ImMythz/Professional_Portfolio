@@ -1,78 +1,231 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <title>Nate Worley</title>
 </head>
 
 <body>
 
+    <!-- Top Navbar -->
     <header>
-        <h1>Nate Worley</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#aboutMe" aria-label="About Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work" aria-label="Work">Work</a>
-                </li>
-                <li>
-                    <a href="#contactMe" aria-label="Contact Me">Contact Me</a>
-                </li>
-            </ul>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="#" class="brand-logo">Nate Worley</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="https://www.linkedin.com/in/nathaniel-worley-a21030150/"
+                            class="tooltipped btn-floating btn-small blue darken-2" data-position="bottom"
+                            data-tooltip="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a></li>
+                    <li><a href="https://github.com/ImMythz" class="tooltipped btn-floating btn-small blue darken-2"
+                            data-position="bottom" data-tooltip="github">
+                            <i class="fab fa-github"></i>
+                        </a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main>
-        <figure class="codeBanner">
-            <img id="devImage" src="./assets/images/dev-pic.JPG" alt="Developer Picture" />
-        </figure>
-        <h3 class="aboutMe">About<br>Me</h3>
-        <div class="aboutMeBar">
-            
-        </div>
-        <p class="aboutMeParagraph">
-            This is my portfolio. I'm not exactly sure what to put here just yet as I dont have many projects to show thus far. 
-            <br><br>For almost three weeks now I've been attedning the SMU UI/UX Coding Bootcamp. I have learned to be proficient in HTML, CSS and JavaScript. This portfolio will be updated as more projects are started and created.
-            <br><br>Thank you for for visiting my portfolio!
-        </p>
-        
-        
-        <section>
-            <h3 class="work">Work</h3>
-            <div class="workBar">
-            
-            </div>
-            <article class="projectTile">
-                <a href="https://github.com/ImMythz/Horiseon-Code-Refactor" target="blank"><img id="project-image" src="./assets/images/code-horiseon.jpg" alt="Code Refactor Project"/></a>
-                <h2 class="projectTitle">Code Refactor<br>HTML/CSS</h2>
-            </article>
 
-        </section>
-    </main>
-    <footer>
-        <h3 class="contactMe">Contact<br>Me</h3>
-        <div class="contactMeBar"></div>
-        <div class="contactLinks">
-            <ul>
-                <li>
-                    <a href="#contactme" aria-label="Phone Number">469.406.9156</a>
-                </li>
-                <li>
-                    <a href="mailto:nate.worley12@gmail.com" aria-label="Email">nate.worley12@gmail.com</a>
-                </li>
-                <li>
-                    <a href="https://github.com/ImMythz" aria-label="GitHub">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/nathaniel-worley-a21030150/" aria-label="LinkedIn">LinkedIn</a>
-                </li>
-            </ul>
-        <div>
-        <div class="linkBars"></div>
+    <!-- Portfolio Work Section -->
+    <section class="container section scrollspy" id="work">
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="Professional_Portfolio/docs/assets/images/web-homepage.PNG" alt=""
+                    class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="blue-text text-darken-2">BarScout</h2>
+                <p>This web application allows you to find bars in different cities, states, and counties. You will also
+                    be able to locate the bars near the searched location on a map.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 offset-l1 push-l7">
+                <img src="Professional_Portfolio/docs/assets/images/Weather_Dashboard_Screenshot.png" alt=""
+                    class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1 pull-l5 right-align">
+                <h2 class="blue-text text-darken-2">Weather Dashboard</h2>
+                <p>A weather application that allows you to search for a city and get the daily weather report for that
+                    city. You will also be able to get the the 5-day forecast of that searched city. Your recent
+                    searches will also be saved.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="Professional_Portfolio/docs/assets/images/Password_Generator_Screenshot.png" alt=""
+                    class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="blue-text text-darken-2">Password Generator</h2>
+                <p>This is a password generator application. The user can choose between different criteria to include
+                    in their password and a random password will generated based on the user selected criteria. You also
+                    have the option to copy your generated password to your clipboard.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Responsive Image -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="Professional_Portfolio/docs/assets/images/desk_blur.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- Skill/Education and Experience Section -->
+    <section class="section container scrollspy" id="about-me">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="blue-text text-darken-2">Experience</h2>
+                <p>After graduting High School in 2015, I began to work in the freelance Grpahic Design and Photogrpahy
+                    field. I began my Bachelor's degree at DeVry University in 2017 with a major in Software
+                    Engineering.</p>
+                <p>Since before my start at DeVry University, I've been deeply interested in programming and coding. I
+                    wanted to
+                    take my developing skills to the next level and kickstart my career as a Full Stack Developer. This
+                    ultimately lead to the decision to enroll in SMU's esteemed Coding Bootcamp.</p>
+                <p>From my time in SMU's Coding Bootcamp thus far, I have mastered the Front-End Development and I'm
+                    working towards mastering the Back-End as well. I look forward to further developing my skills as a
+                    Developer.</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <!-- Skill and Education Tabs -->
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#skills" class="active blue-text text-darken-2">Skills</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#education" class="blue-text text-darken-2">Education</a>
+                    </li>
+                </ul>
+                <div id="skills" class="col s12">
+                    <p class="flow-text blue-text text-darken-2">Skills</p>
+                    <p>Here are few of my strongest skills as a young professional</p>
+                    <p>Learning Agility</p>
+                    <p>Time Management Skills</p>
+                    <p>Leadership Ability</p>
+                    <p>Critical Thinking</p>
+                    <p>Teamwork</p>
+                    <br></br>
+                    <p>Below is a list of coding skills and languages I've learned</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>Node.js</p>
+                    <p>Python</p>
+                </div>
+                <div id="education" class="col s12">
+                    <p class="flow-text blue-text text-darken-2">Education</p>
+                    <p>Wylie High School - HS Diploma - GPA 3.6 (2015)</p>
+                    <p>DeVry University - BS Software Engineering - GPA 3.8 (2017-present)</p>
+                    <p>SMU Coding Bootcamp (currently attending)</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Responsive Image -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="/docs/assets/images/code-horiseon.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- Get In Touch Section w/ Form -->
+    <section class="section container scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="blue-text text-darken-2">Get in Touch</h2>
+                <p>I'm continuing my ever evolving journey of learning new skills and programming proficiencies each and
+                    everyday</p>
+                <p>If you like some of my work or are interested in getting in touch, feel free to send me an Email:
+                    <a id="emailGetInTouch" href="mailto:nate.worley12@gmail.com"
+                        aria-label="Email">nate.worley12@gmail.com</a> or use the form provided.</p>
+                <p>I look forward to hearing from you!</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <br></br>
+                <br></br>
+                <form>
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">date_range</i>
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Choose a date...</label>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Personally Section/Footer -->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5>About Me Personally</h5>
+                    <p>I grew up in Fort Myers, FL before making the biggest move in my life to Dallas, TX in 2014. It
+                        was here in Dallas where I finihsed High School and began working towards furthering my
+                        education in the Software Engineering industry.</p>
+                    <p>My hobbies consist of rock climbing, coding and playing disc golf. I'm also deeply interested in
+                        AI and Machine Learning and
+                        strive to one day have a career in and contribute to the the AI/Machine Learning industry. </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <!-- Connect Section w/ Links -->
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#" aria-label="Phone Number">469.406.9156</a></li>
+                        <li><a class="grey-text text-lighten-3" href="mailto:nate.worley12@gmail.com"
+                                aria-label="Email">nate.worley12@gmail.com</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/ImMythz"
+                                aria-label="GitHub">GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3"
+                                href="https://www.linkedin.com/in/nathaniel-worley-a21030150/"
+                                aria-label="LinkedIn">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2021 Nate Worley</div>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 
 </html>
