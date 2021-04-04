@@ -31,6 +31,16 @@ header {
     min-height: 320px;
   }
 }
+@media screen and (max-width: 450px) {
+  header {
+    min-height: 250px;
+  }
+}
+@media screen and (max-width: 350px) {
+  header {
+    min-height: 220px;
+  }
+}
   
 .section {
   padding-top: 4vw;
