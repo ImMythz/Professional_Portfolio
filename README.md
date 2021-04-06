@@ -9,8 +9,7 @@ This repo is used as my professional portfolio and is live on GitHub Pages to di
 <img src='assets\images\portfolio_screenshot_3.png' alt='Portfolio Screenshot 3'>
 
 ## Technologies Used
-CSS Framework Materialize
-HTML | CSS | JS
+CSS Framework Materialize | HTML | CSS | JS
 
 ## License
 MIT License
