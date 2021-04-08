@@ -2,6 +2,7 @@
 
 ## A Little About Me
 > Hello World
+
 My Name is Nate, I'm a Full Stack Developer. I'm currently attending working towards improving my programming knowledge through education and practice. This repository is my professional portfolio to showcase myself and my projects. Feel free to reach out to me if you want to get in touch and don't forget to check out the link to my portfolio below!
 
 ## Usage/Description
