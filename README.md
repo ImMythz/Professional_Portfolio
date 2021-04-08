@@ -1,7 +1,11 @@
 # Professional_Portfolio
 
-## Description
-This repo is used as my professional portfolio and is live on GitHub Pages to display my work as a developer.
+## A Little About Me
+> Hello World
+My Name is Nate, I'm a Full Stack Developer. I'm currently attending working towards improving my programming knowledge through education and practice. This repository is my professional portfolio to showcase myself and my projects. Feel free to reach out to me if you want to get in touch and don't forget to check out the link to my portfolio below!
+
+## Usage/Description
+This repository acts as my professional portfolio for me to showcase my projects, talents and abilities as a Full Stack Developer. I'm always learning new skills and improving on current ones, so don't forget to follow to keep up to date with my latest projects and improvements as a Developer. My portfolio includes links to my LinkedIn, contact info, and resume. I look forward to hearing from you!
 
 ## Screenshot
 <img src='docs\assets\images\portfolio_screenshot_1.png' alt='Portfolio Screenshot 1'>
