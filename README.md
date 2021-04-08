@@ -4,13 +4,12 @@
 This repo is used as my professional portfolio and is live on GitHub Pages to display my work as a developer.
 
 ## Screenshot
-<img src='docs\Assets\portfolio_screenshot_1.png' alt='Portfolio Screenshot 1'>
-<img src='docs\Assets\portfolio_screenshot_2.png' alt='Portfolio Screenshot 2'>
-<img src='docs\Assets\portfolio_screenshot_3.png' alt='Portfolio Screenshot 3'>
+<img src='docs\assets\images\portfolio_screenshot_1.png' alt='Portfolio Screenshot 1'>
+<img src='docs\assets\images\portfolio_screenshot_2.png' alt='Portfolio Screenshot 2'>
+<img src='docs\assets\images\portfolio_screenshot_3.png' alt='Portfolio Screenshot 3'>
 
 ## Technologies Used
-CSS Framework Materialize
-HTML | CSS | JS
+CSS Framework Materialize | HTML | CSS | JS
 
 ## License
 MIT License
