@@ -61,3 +61,40 @@ header {
 #emailGetInTouch {
   color: #1976d2;
 }
+
+/* Change label color */
+label.active {
+  color: 1976d2 !important;
+}
+
+/* Change input field underline color */
+input:focus {
+  border-bottom: 1px solid #1976d2 !important;
+  box-shadow: 0 1px 0 0 #1976d2 !important;
+}
+
+/* Change textarea underline color */
+textarea:focus {
+  border-bottom: 1px solid #1976d2 !important;
+  box-shadow: 0 1px 0 0 #1976d2 !important;
+}
+
+/* Change calander background color */
+.datepicker-date-display {
+  background-color: #1976d2;
+}
+
+/* Change Cancel btn color */
+.datepicker-cancel {
+  color: #1976d2;
+}
+
+/* Change Ok btn color */
+.datepicker-done {
+  color: #1976d2;
+}
+
+/* Change day selected color */
+.datepicker-day-button {
+  color: #1976d2;
+}
